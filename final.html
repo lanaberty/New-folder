@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<body>   
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>The Malta Doors Project</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    </head>
+    
+<section class="sub-header">
+            <nav>
+                <a href="index.html"><img width="200" height="50" src="images/LOGO.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fas fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="research.html">RESEARCH</a></li>
+                        <li><a href="final.html">FINAL<a></li>
+                    </ul>
+                </div>
+                <i class="fas fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1></h1>   
+</section>        
+
+<!--------Visual Research--------->
+
+<section class="research">
+    <h1>Sketch and Final Vector Illustration</h1>
+    <p>This is a collection of photos of multiple traditonal Maltese doors that I took with my camera in the streets of Birgu.</p>
+
+    <div class="row">
+        <div class="research-col">
+            <img src="images/sketch.png">
+            <div class="layer">
+               <h3>SKETCH</h3>
+            </div>
+        </div>
+        <div class="research-col">
+            <img src="images/final.png">
+            <div class="layer">
+               <h3>VECTOR ILLUSTRATION</h3>
+            </div>
+        </div>
+</section>
+
+<!--------Footer--------->
+<section class="footer">
+    <h4>Contact Me</h4>
+    <p>Hi, my name is Lana Berty Spiteri and<br>I am currently a 1st year University of Malta student taking a BFA in digital arts course.<br>This project was part of my Applied Software Practices course assignment.<br>You can find my contact details below.</p>
+    <div class="icons">
+        <a href="https://www.facebook.com/LanaSpiteri/"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.instagram.com/lanaberty/"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/lanabertyspiteri/"><i class="fab fa-linkedin"></i></a>
+    </div>
+    <p>Made with <i class="far fa-heart"></i> by Lana</p>
+</section>
+
+<!--------JavaScript for Toggle Menu--------->
+<script>
+
+    var navLinks = document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>    
+
+</body>
+</html>

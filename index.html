@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<body>   
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>The Malta Doors Project</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    </head>
+    
+<section class="header">
+            <nav>
+                <a href="index.html"><img width="200" height="50" src="images/LOGO.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fas fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="research.html">RESEARCH</a></li>
+                        <li><a href="final.html">FINAL<a></li>
+                    </ul>
+                </div>
+                <i class="fas fa-bars" onclick="showMenu()"></i>
+            </nav>
+<div class="text-box">
+    <h1>Welcome to 'The Malta Doors Project'</h1>
+    <p>This poject explores traditonal Maltese doors and their intricate ironwork, wood panelling and bold colours.<br>Each door is so diverse and individual that they almost stare back as if they where human portraits.<br>This here you will find picture documentation of several doors in Malta, sketches and final vector artwork.
+    </p>
+    <a href="about.html" class="hero-btn">LEARN MORE</a>
+</div>            
+            
+</section>        
+
+<!--------About--------->
+<section class="about">
+    <h1>About</h1>
+    <p>The aim of this priject is to design a vector illustration for an A4 poster series for MaltaDoors, a visual blog that documents the colourful and quirky facades and doorways on the Maltese Islands.For this project I will be conducting visual research, producing a digital sketch and designing the illustration using Adobe Illustrator.</p>
+
+    <div class="row">
+        <div class="about-col">
+          <h3>Visual Research</h3>
+          <p>I photographically explored the quirky streets of Maltese towns and villages and collected images that will inspire my artwork. This is a collection of photos of multiple traditonal Maltese doors that I took with my camera in the streets of Birgu. </p>
+        </div>
+    
+        <div class="about-col">
+          <h3>Sketch</h3>
+          <p>I choose one door from the photographs which I wanted to convert into a vector illustration and analysed the design elements of the facade. I made sure to simplify and stylise all the details to focus on the most essential visual elements of the Doors.</p>
+        </div>
+
+        <div class="about-col">
+          <h3>Vector Illustration</h3>
+          <p>Using Adobe Illustrator, I produced a stylised vector illustration of the selected door. This is a simple minimanalist design coloured with a bright modern colour scheme inspired by my visual research.</p>
+        </div>
+    </div>
+
+</section> 
+
+<!--------Visual Research--------->
+
+<section class="research">
+    <h1>Visual Research</h1>
+    <p>This is a collection of photos of multiple traditonal Maltese doors that I took with my camera in the streets of Birgu.</p>
+
+    <div class="row">
+        <div class="research-col">
+            <img src="images/door (17).jpg">
+            <div class="layer">
+               <h3>BROWN DOOR</h3>
+            </div>
+        </div>
+        <div class="research-col">
+            <img src="images/door (24).jpg">
+            <div class="layer">
+               <h3>GREEN DOOR</h3>
+            </div>
+        </div>
+        <div class="research-col">
+            <img src="images/door (12).jpg">
+            <div class="layer">
+               <h3>ORANGE DOOR</h3>
+            </div>
+        </div>    
+    </div>
+</section>
+
+<!--------Final--------->
+<section class="final">
+    <h1>Check out the sketch and<br>final vector illustration</h1>
+    <a href="final.html" class="hero-btn">VIEW HERE</a>
+
+</section>
+
+<!--------Footer--------->
+<section class="footer">
+    <h4>Contact Me</h4>
+    <p>Hi, my name is Lana Berty Spiteri and<br>I am currently a 1st year University of Malta student taking a BFA in digital arts course.<br>This project was part of my Applied Software Practices course assignment.<br>You can find my contact details below.</p>
+    <div class="icons">
+        <a href="https://www.facebook.com/LanaSpiteri/"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.instagram.com/lanaberty/"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/lanabertyspiteri/"><i class="fab fa-linkedin"></i></a>
+    </div>
+    <p>Made with <i class="far fa-heart"></i> by Lana</p>
+</section>
+
+<!--------JavaScript for Toggle Menu--------->
+<script>
+
+    var navLinks = document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>    
+
+</body>
+</html>
